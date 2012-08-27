@@ -7,7 +7,7 @@
 <script  type="text/javascript" src="js/backbone/backbone-min.js"></script>
 <script  type="text/javascript" src="js/semweb/secrets.js"></script>
 <script  type="text/javascript" src="js/semweb/semweb.js"></script>
-
+<!-- small change -->
 </head>
 
 <body>
