@@ -1,0 +1,1 @@
+var triplestore_url = "http://path_to_triplestore";
