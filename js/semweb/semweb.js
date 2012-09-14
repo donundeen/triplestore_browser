@@ -1,4 +1,5 @@
 	
+var repo_name = "europeana";	
 var prefixMgr;
 	
   $(document).ready(function(){
@@ -9,7 +10,7 @@ var prefixMgr;
 	
 	//alert("loaded");
 	var proxyurl = "proxy.php";
-	var remUrl = "http://sdlxapp00.metmuseum.org:10035/repositories/Don/size";
+	var remUrl = "http://sdlxapp00.metmuseum.org:10035/repositories/"+repo_name+"/size";
 	$.ajax({
 		url : proxyurl,
 		data : {
@@ -460,7 +461,7 @@ var SPARQLQuery = Backbone.Model.extend({
 
 	defaults : {
 		proxyurl : "proxy.php",
-		endpoint : "http://sdlxapp00.metmuseum.org:10035/repositories/Don",
+		endpoint : "http://sdlxapp00.metmuseum.org:10035/repositories/"+repo_name,
 		accept : "application/json",
 		//accept : "application/sparql-results+xml",
 		queryString : "",
